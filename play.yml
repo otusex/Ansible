@@ -1,0 +1,7 @@
+---
+ - name: Nginx play
+   hosts: all
+   remote_user: vagrant
+   become: yes
+   roles:
+     - role: nginx

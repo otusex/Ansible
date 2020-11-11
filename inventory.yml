@@ -1,0 +1,9 @@
+---
+all:
+  children:
+    ungrouped:
+      hosts:
+        ex_m:
+          ansible_host:  10.10.0.2
+
+
