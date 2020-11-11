@@ -2,6 +2,7 @@
 
 Провизион - ansible - устанавливает nginx c роли nginx)
 
+```bash
 nginx
 
 defaulst/main.yml        - переменные по умолчанию
@@ -17,7 +18,7 @@ templates/
    vhost.j2              - шаблон j2 vhost
 
 handlers/main.yml        - перезапуск nginx 
-
+```
 
 
 
